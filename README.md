@@ -7,9 +7,25 @@
 ![label3](https://img.shields.io/badge/port%20scan-e6151c?style=flat)
 
 
-#web_scan
+# 🌐 web_scan
+
+## 🏃 to run
+
+```command
+python3 main.py
+```
+
 ---
 
-## Built with
+## 🧰 Built with
 
-> pure python
+  > pure python
+
+  > No external libraries or dependencies required
+
+## 🎯 purpose
+  >scan networks to find ports
+  >This project is designed to provide an easy-to-use in command-line
+
+## ⚠ warning
+  >IP scanning and Web scanning Unauthorized. and Ip,port,TLS scanning and server name enumeration without explicit permission may be illegal and can result in security alerts, blocking or legal action.
