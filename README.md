@@ -30,6 +30,7 @@ python3 main.py
 ## 🎯 purpose
   >scan networks to find ports
   >This project is designed to provide an easy-to-use in command-line
+  >fast port scan(40sec/65563)
 
 ## ⚠ warning
   >IP scanning and Web scanning Unauthorized. and Ip,port,TLS scanning and server name enumeration without explicit permission may be illegal and can result in security alerts, blocking or legal action.
