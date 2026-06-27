@@ -29,7 +29,9 @@ python3 main.py
 
 ## 🎯 purpose
   >scan networks to find ports
+
   >This project is designed to provide an easy-to-use in command-line
+
   >fast port scan(40sec/65563)
 
 ## ⚠ warning
