@@ -111,7 +111,7 @@ def scan():
         
         #port scan
         try: 
-            get = input("\nDeep scan if you want any key or n for stop?: ")
+            get = input("\nDeep scan if you want press any key or n for stop?: ")
         except KeyboardInterrupt: 
             print(blod_text+blue+"\nThank you !!!!"+reset)      #if crtl + C for exit
             return 
@@ -134,7 +134,7 @@ def scan():
                 s.settimeout(socket_timeout)
 
                 r = s.connect_ex((ip_address,port))
-
+                print("\r",end="")
                 print(f"\rscanning {port} /{port_num}       {round(abs(socket_timeout*((port-port_num) /max_works)))} about",end='')
 
                 if r == 0:
@@ -170,5 +170,12 @@ def scan():
             except TypeError as e:
                 print(red+e)
                 return
-                    
-scan()
+
+try:                   
+    scan()
+except EOFError:
+    print("\033[1m"+"\033[34m"+"\nThank you !!!!"+"\033[0m") 
+    exit()
+except KeyboardInterrupt:
+    print("\033[1m"+"\033[34m"+"\nThank you !!!!"+"\033[0m") 
+    exit()
