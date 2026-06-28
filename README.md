@@ -6,7 +6,7 @@
 ![label2](https://img.shields.io/badge/ip%20scan-5378db?style=flat)
 ![label3](https://img.shields.io/badge/port%20scan-e6151c?style=flat)
 
-![demo](assets/webscan.gif)
+<img src="assets/webscan.gif" width="300" height="350" alt="Demo GIF">
 
 
 # 🌐 web_scan
